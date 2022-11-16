@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body {
+  padding: 15px 50px;
+ user-select: none;
+}
+
+.header {
+  /* border: 1px solid; */
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+
+    .header__elem {
+        font-size: 15px;
+        color: rgb(83, 83, 83);
+        cursor: pointer;
+        transition: all .03s;
+        height: min-content;
+    }
+    .header__elem:hover {
+        color: black;
+    }
+    .header__elem:active {
+        transform: scale(1.03);
+
+    }
+    .header__logo{
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        /* flex-direction: column; */
+        font-weight: bold;
+        color: black;
+    }
+        .header__logo__img{
+            width: 30px;
+            height: 30px;    
+        }
+    .header__contacto{
+        font-weight: bold;
+        color: black;
+    }
